@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="lava"
+         fetch="http://staging.git.linaro.org/git-ro" />
+ <default revision="master"
+          remote="lava"
+          sync-j="4" />
+ <project path="lava-android-test" name="lava/lava-android-test" />
+ <project path="lava-coordinator" name="lava/lava-coordinator" />
+ <project path="lava-dashboard" name="lava/lava-dashboard" />
+ <project path="lava-deployment-tool" name="lava/lava-deployment-tool" />
+ <project path="lava-dispatcher" name="lava/lava-dispatcher" />
+ <project path="lava-lab" name="lava/lava-lab" />
+ <project path="lava-manifest" name="lava/lava-manifest" />
+ <project path="lava-master-image-scripts" name="lava/lava-master-image-scripts" />
+ <project path="lava-project" name="lava/lava-project" />
+ <project path="lava-raven" name="lava/lava-raven" />
+ <project path="lava-scheduler-tool" name="lava/lava-scheduler-tool" />
+ <project path="lava-scheduler" name="lava/lava-scheduler" />
+ <project path="lava-server" name="lava/lava-server" />
+ <project path="lava-test" name="lava/lava-test" />
+ <project path="lava-tool" name="lava/lava-tool" />
+ <project path="lava-utils-interface" name="lava/lava-utils-interface" />
+ <project path="linaro-image-tools" name="lava/linaro-image-tools" />
+ <project path="linaro-python-dashboard-bundle" name="lava/linaro-python-dashboard-bundle" />
+
+
+
+
+
+
+</manifest>
+
