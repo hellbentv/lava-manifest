@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="lava"
-         fetch="http://staging.git.linaro.org/git-ro" />
+ <remote name="staging"
+         fetch="git-http://staging.git.linaro.org/git-http" />
+ <remote name="git"      
+         fetch="http://git.linaro.org/git-ro"
  <default revision="master"
-          remote="lava"
+          remote="staging"
           sync-j="4" />
  <project path="lava-android-test" name="lava/lava-android-test" />
  <project path="lava-coordinator" name="lava/lava-coordinator" />
@@ -24,6 +26,8 @@
  <project path="linaro-image-tools" name="lava/linaro-image-tools" />
  <project path="linaro-python-dashboard-bundle" name="lava/linaro-python-dashboard-bundle" />
 
+ <project path="arm-probe" name="lava/tools/arm-probe" remote="git"/>
+ 
 
 
 
