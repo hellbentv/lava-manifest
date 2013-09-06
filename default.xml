@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remote name="staging"
-         fetch="git-http://staging.git.linaro.org/git-http" />
+         fetch="http://staging.git.linaro.org/git-http" />
  <remote name="git"      
          fetch="http://git.linaro.org/git-ro"
  <default revision="master"
