@@ -4,6 +4,7 @@
          fetch="http://staging.git.linaro.org/git-http" />
  <remote name="git"      
          fetch="http://git.linaro.org/git-ro"
+                
  <default revision="master"
           remote="staging"
           sync-j="4" />
@@ -26,7 +27,7 @@
  <project path="linaro-image-tools" name="lava/linaro-image-tools" />
  <project path="linaro-python-dashboard-bundle" name="lava/linaro-python-dashboard-bundle" />
 
- <project path="arm-probe" name="lava/tools/arm-probe" remote="git"/>
+ <project path="tools/arm-probe" name="tools/arm-probe" remote="git"/>
  
 
 
