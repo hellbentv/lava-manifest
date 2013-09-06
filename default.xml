@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remote name="staging"
-         fetch="http://staging.git.linaro.org/git-http" />
+         fetch="http://staging.git.linaro.org/git-ro" />
  <remote name="git"      
          fetch="http://git.linaro.org/git-ro" />
  <default revision="master"
@@ -17,13 +17,12 @@
  <project path="lava-master-image-scripts" name="lava/lava-master-image-scripts" />
  <project path="lava-project" name="lava/lava-project" />
  <project path="lava-raven" name="lava/lava-raven" />
- <project path="lava-scheduler-tool" name="lava/lava-scheduler-tool" />
  <project path="lava-scheduler" name="lava/lava-scheduler" />
  <project path="lava-server" name="lava/lava-server" />
  <project path="lava-test" name="lava/lava-test" />
  <project path="lava-tool" name="lava/lava-tool" />
  <project path="lava-utils-interface" name="lava/lava-utils-interface" />
- <project path="linaro-image-tools" name="lava/linaro-image-tools" />
+ 
  <project path="linaro-python-dashboard-bundle" name="lava/linaro-python-dashboard-bundle" />
 
  <project path="tools/arm-probe" name="tools/arm-probe" remote="git"/>
