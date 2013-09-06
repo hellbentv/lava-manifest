@@ -3,8 +3,7 @@
  <remote name="staging"
          fetch="http://staging.git.linaro.org/git-http" />
  <remote name="git"      
-         fetch="http://git.linaro.org/git-ro"
-                
+         fetch="http://git.linaro.org/git-ro" />
  <default revision="master"
           remote="staging"
           sync-j="4" />
@@ -29,10 +28,5 @@
 
  <project path="tools/arm-probe" name="tools/arm-probe" remote="git"/>
  
-
-
-
-
-
 </manifest>
 
